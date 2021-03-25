@@ -6,10 +6,12 @@
 
 * issueは基本的に使っていません。未アップデート箇所のToDoとしてのものがある可能性はあります。
 * 以下の各ページのまとめに関しての詳細・経緯はリンクしてある議論のメールなどを参照ください。
+* このREADMEは[github.ioのトップ](https://himorin.github.io/jlreq-unicode-notes/)と同じものです。
 
 ## 全般
 
 * [文字クラス一覧](AllClasses.md)
+  * 一覧に突っ込んである最新の議論の日付 : YYYY/MM/DD
 
 ## 資料
 
