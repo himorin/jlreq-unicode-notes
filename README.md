@@ -11,3 +11,8 @@
 
 * [文字クラス一覧](AllClasses.md)
 
+## 資料
+
+* [JLReq v2 の文字クラスの出現箇所一覧](references/jlreq-cl-check-202009.html) (2020/09/17の議論MLの添付のもの)
+  * [タブ区切りファイル](references/jlreq-cl-check-202009.csv)
+
