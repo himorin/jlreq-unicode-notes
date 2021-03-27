@@ -3,12 +3,14 @@
 ## v2文字クラスリスト
 
 * 削除のものは<del>文字クラス</del>表記に
-* Unicode属性での置き換え検討の場合は別ページの表へのリンクをぶら下げる
+* Unicode属性での置き換え検討の場合はサマリーを（詳細は下）
 
 ### リスト＋検討状況
 
 * cl-01 Opening brackets / 始め括弧類
+  * Unicodeでの置換: [General Category = Ps/Pi, EAW = F/A/W, Decomposition Type != Vertical/Small](https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5B%5B%3ADecomposition_Type%21%3DSmall%3A%5D%26%5B%3ADecomposition_Type%21%3DVertical%3A%5D%5D%26%5B%5B%3AGeneral_Category%3DPs%3A%5D%5B%3AGeneral_Category%3DPi%3A%5D%5D%26%5B%5B%3AEast_Asian_Width%3DW%3A%5D%5B%3AEast_Asian_Width%3DA%3A%5D%5B%3AEast_Asian_Width%3DF%3A%5D%5D&g=&i=)
 * cl-02 Closing brackets / 終わり括弧類
+  * Unicodeでの置換: [General Category = Pe/Pf, FAW = F/A/W, Decomposition Type =! Vertical/Small](https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5B%5B%3ADecomposition_Type%21%3DSmall%3A%5D%26%5B%3ADecomposition_Type%21%3DVertical%3A%5D%5D%26%5B%5B%3AGeneral_Category%3DPe%3A%5D%5B%3AGeneral_Category%3DPf%3A%5D%5D%26%5B%5B%3AEast_Asian_Width%3DW%3A%5D%5B%3AEast_Asian_Width%3DA%3A%5D%5B%3AEast_Asian_Width%3DF%3A%5D%5D&g=&i=)
 * cl-03 Hyphens / ハイフン類
 * cl-04 Dividing punctuation marks / 区切り約物
 * cl-05 Middle dots / 中点類
@@ -71,10 +73,20 @@
 
 ## Unicode属性での表現
 
+* JLReq v2の表でUnicodeでEAW=Naのものは対応するU+FFXXの文字で置き換える
+  * NKFC_Casefoldなどで対応をみる ([例](https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5B%3ANFKC_Casefold=%E2%A6%85%3A%5D))
+* 基本的にEAW=F/A/W + Decomposition Type != Vertial/Smallでフィルタリングしたものから
+
 * cl-01 始め括弧類
-  * 
-
-
+  * 提案: [General Category = Ps/Pi, EAW = F/A/W, Decomposition Type != Vertical/Small](https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5B%5B%3ADecomposition_Type%21%3DSmall%3A%5D%26%5B%3ADecomposition_Type%21%3DVertical%3A%5D%5D%26%5B%5B%3AGeneral_Category%3DPs%3A%5D%5B%3AGeneral_Category%3DPi%3A%5D%5D%26%5B%5B%3AEast_Asian_Width%3DW%3A%5D%5B%3AEast_Asian_Width%3DA%3A%5D%5B%3AEast_Asian_Width%3DF%3A%5D%5D&g=&i=)
+    * 追加される文字は[U+2329](https://util.unicode.org/UnicodeJsps/character.jsp?a=2329), [U+301A](https://util.unicode.org/UnicodeJsps/character.jsp?a=301A)
+    * U+2329はDeprecatedにマークされている
+    * [JLReq表とUnicodeの対応](references/cl-01-diff.html) ([TSV](references/cl-01-diff.tsv))、[Unicode Ps/Piの全リスト](references/cl-01-unicode.html) ([TSV](references/cl-01-unicode.tsv))
+  * 表にあるU+00ABは削除
+* cl-02 終わり括弧類
+  * 提案: [General Category = Pe/Pf, FAW = F/A/W, Decomposition Type =! Vertical/Small](https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5B%5B%3ADecomposition_Type%21%3DSmall%3A%5D%26%5B%3ADecomposition_Type%21%3DVertical%3A%5D%5D%26%5B%5B%3AGeneral_Category%3DPe%3A%5D%5B%3AGeneral_Category%3DPf%3A%5D%5D%26%5B%5B%3AEast_Asian_Width%3DW%3A%5D%5B%3AEast_Asian_Width%3DA%3A%5D%5B%3AEast_Asian_Width%3DF%3A%5D%5D&g=&i=)
+    * 追加される文字は[U+232A](https://util.unicode.org/UnicodeJsps/character.jsp?a=232A), [U+301B](https://util.unicode.org/UnicodeJsps/character.jsp?a=301B), [U+301E](https://util.unicode.org/UnicodeJsps/character.jsp?a=301E)
+    * [JLReq表とUnicodeの対応](references/cl-02-diff.html) ([TSV](references/cl-02-diff.tsv))、[Unicode Pe/Pfの全リスト](references/cl-02-unicode.html) ([TSV](references/cl-02-unicode.tsv))
 
 ## 議論リストでのピックアップ参照リスト
 
