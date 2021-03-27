@@ -26,17 +26,17 @@
 * cl-17 Math symbols / 等号類
 * cl-18 Math operators / 演算記号
 * cl-19 Ideographic characters / 漢字等（漢字以外の例）
-* cl-20 Characters as reference marks / 合印中の文字
-* cl-21 Ornamented character complexes / 親文字群中の文字（添え字付き）
-* cl-22 Simple-ruby character complexes / 親文字群中の文字（熟語ルビ以外のルビ付き）
-* cl-23 Jukugo-ruby character complexes / 親文字群中の文字（熟語ルビ付き）
-* cl-24 Grouped numerals / 連数字中の文字
-* cl-25 Unit symbols / 単位記号中の文字
+* <del>cl-20 Characters as reference marks / 合印中の文字</del>
+* <del>cl-21 Ornamented character complexes / 親文字群中の文字（添え字付き）</del>
+* <del>cl-22 Simple-ruby character complexes / 親文字群中の文字（熟語ルビ以外のルビ付き）</del>
+* <del>cl-23 Jukugo-ruby character complexes / 親文字群中の文字（熟語ルビ付き）</del>
+* <del>cl-24 Grouped numerals / 連数字中の文字</del>
+* <del>cl-25 Unit symbols / 単位記号中の文字</del>
 * cl-26 Western word space / 欧文間隔
 * cl-27 Western characters / 欧文用文字
-* cl-28 Warichu opening brackets / 割注始め括弧類
-* cl-29 Warichu closing brackets / 割注終わり括弧類
-* cl-30 Characters in tate-chu-yoko / 縦中横中の文字
+* <del>cl-28 Warichu opening brackets / 割注始め括弧類</del>
+* <del>cl-29 Warichu closing brackets / 割注終わり括弧類</del>
+* <del>cl-30 Characters in tate-chu-yoko / 縦中横中の文字</del>
 
 
 ## クラス自体の改廃
