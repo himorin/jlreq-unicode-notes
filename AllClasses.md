@@ -140,6 +140,13 @@
 * cl-11 小書きのかな
   * JLReq利用箇所は6カ所、2.1.2の小書きの定義、3.1.1.cの縦横で異なる字面、3.1.7行頭禁足(2)、3.3.8ルビ(2)
   * 条件付き行頭禁足は[Line Break = Consitional Japanese Starter](https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5B%3ALine_Break%3DConditional_Japanese_Starter%3A%5D)で実現
+* cl-19 漢字等
+  * [Script = Han](https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5B%3AScript%3DHan%3A%5D) (すべてEAW+W)
+    * [CJK Radical](https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BBlock%3DCJK+Radicals+Supplement%7D), [Kangxi Radicals](https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BBlock%3DKangxi+Radicals%7D)
+    * [U+3005 々](https://util.unicode.org/UnicodeJsps/character.jsp?a=3005), [U+3007 〇](https://util.unicode.org/UnicodeJsps/character.jsp?a=3007), [U+303B](https://util.unicode.org/UnicodeJsps/character.jsp?a=303B)
+    * [蘇州号碼](https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7Bsubhead%3DSuzhou+numerals%7D)
+    * [CJK Unified Ideographs](https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BBlock%3DCJK+Unified+Ideographs%7D) + [Extension A](https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BBlock%3DCJK+Unified+Ideographs+Extension+A%7D) + Extension A,B,C,D,E,F
+    * [CJK Compatibility Ideographs](https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BBlock%3DCJK+Compatibility+Ideographs%7D) + [Suppliment](https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BBlock%3DCJK+Compatibility+Ideographs+Supplement%7D)
 
 
 ## 議論リストでのピックアップ参照リスト
