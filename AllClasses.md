@@ -75,14 +75,14 @@
     * cl-29 割注終わり括弧類
       * JLReq中での参照箇所3カ所
 * [2020/12/01議論](https://lists.w3.org/Archives/Public/public-jlreq-admin/2020OctDec/0009.html)
-  * 1. JIS-Unicode対応への疑問符
-  * 2. cl-03のハイフン類の波線と長音としての利用の分離？
-  * 3. 抜くことにした文字: [U+00AB](https://util.unicode.org/UnicodeJsps/character.jsp?a=00AB) (cl-01 -> 27), [U+00BB](https://util.unicode.org/UnicodeJsps/character.jsp?a=00BB) (cl-02 -> 27)
-  * 4. cl-12,13を削除
+  * 1) JIS-Unicode対応への疑問符
+  * 2) cl-03のハイフン類の波線と長音としての利用の分離？
+  * 3) 抜くことにした文字: [U+00AB](https://util.unicode.org/UnicodeJsps/character.jsp?a=00AB) (cl-01 -> 27), [U+00BB](https://util.unicode.org/UnicodeJsps/character.jsp?a=00BB) (cl-02 -> 27)
+  * 4) cl-12,13を削除
     * 全角のものは漢字と同じ扱い、欧文幅のものは cl-27 （日本語以外の放り込み場所）に分配することになりました
       * この区別は UAX 50 の Vertical Orientation が R のものは欧文、U/Tu は和文ということで明確
     * cl-12 前置省略記号、cl-13 後置省略記号、ともJLReq内での参照カ所2カ所（べた組と分割禁止）
-  * 6. [U+4EDD](https://util.unicode.org/UnicodeJsps/character.jsp?a=4EDD)の挙動は漢字と同じ
+  * 6) [U+4EDD](https://util.unicode.org/UnicodeJsps/character.jsp?a=4EDD)の挙動は漢字と同じ
 * [2020/12/16議論](https://lists.w3.org/Archives/Public/public-i18n-japanese/2020OctDec/0200.html)
   * cl-15/16に変体かな・合字を追加、enclosed circleはcl-19のまま - cl-19とはルビがかかるかどうかの違い
     * cl-15/16とcl-19がJLReqで同時に出現していない箇所は、3.3.8のルビのはみ出し、部分のみ
