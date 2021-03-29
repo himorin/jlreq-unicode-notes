@@ -1,0 +1,45 @@
+﻿Character	UCS	利用回数	cl	to-FF	General Category	EAW	DT	Block	Subhead	UCS Name
+(TAB)	0009	1			Control	N	None	Basic Latin	Co controls	Horizontal Tabulation
+(	0028	2	1	FF08	Open_Punctuation	Na	None	Basic Latin	ASCII punctuation and symbols	LEFT PARENTHESIS
+ ) 	0029	2	2	FF09	Close_Punctuation 	Na	None	Basic Latin	ASCII punctuation and symbols	RIGHT PARENTHESIS
+*	002A	1		FF0A	Other_Punctuation	Na	None	Basic Latin	ASCII punctuation and symbols	ASTERISK
+,	002C	1		FF0C	Other_Punctuation	Na	None	Basic Latin	ASCII punctuation and symbols	COMMA
+.	002E	1		FF0E	Other_Punctuation	Na	None	Basic Latin	ASCII punctuation and symbols	FULL STOP
+ § 	00A7	1			Other_Punctuation	A	None	Latin 2 Supplement	Latin-2 punctuation and symbols	SECTION SIGN
+ ¶ 	00B6	1			Other_Punctuation	A	None	Latin 3 Supplement	Latin-3 punctuation and symbols	PILCROW SIGN
+ — 	2014	4			Dash_Punctuation	A	Nonw	General Punctuation	Dashes	EM DASH
+ ― 	2015	4			Dash_Punctuation	A	Nonw	General Punctuation	Dashes	HORIZONTAL BAR
+ ‖ 	2016	1			Other_Punctuation	A	None	General Punctuation	General punctuation	DOUBLE VERTICAL LINE
+‘	2018	1			Initial_Punctuation	A	None	General Punctuation	Quotation marks and apostrophe	LEFT SINGLE QUOTATION MARK
+ ’ 	2019	1	2		Final_Punctuation	A	None	General Punctuation	Quotation marks and apostrophe	RIGHT SINGLE QUOTATION MARK
+ “ 	201C	3	1		Initial_Punctuation	A	None	General Punctuation	Quotation marks and apostrophe	LEFT DOUBLE QUOTATION MARK
+ ” 	201D	3	2		Final_Punctuation	A	None	General Punctuation	Quotation marks and apostrophe	RIGHT DOUBLE QUOTATION MARK
+ † 	2020	1			Other_Punctuation	A	None	General Punctuation	General punctuation	DAGGER
+ ‡ 	2021	1			Other_Punctuation	A	None	General Punctuation	General punctuation	DOUBLE DAGGER
+ • 	2022	2			Other_Punctuation	A	None	General Punctuation	General punctuation	BULLET
+ ‥ 	2025	2	8		Other_Punctuation	A	Compat	General Punctuation	General punctuation	TWO DOT LEADER
+ … 	2026	2	8		Other_Punctuation	A	Compat	General Punctuation	General punctuation	HORIZONTAL ELLIPSIS
+	3000	4	14		Space_Separator	F	Wide	CJK Symbols And Punctuation	CJK symbols and punctuation	IDEOGRAPHIC SPACE
+ 、 	3001	6	7		Other_Punctuation	W	None	CJK Symbols And Punctuation	CJK symbols and punctuation	IDEOGRAPHIC COMMA
+ 。 	3002	4	6		Other_Punctuation	W	None	CJK Symbols And Punctuation	CJK symbols and punctuation	IDEOGRAPHIC FULL STOP
+ 〈 	3008	3	1		Open_Punctuation	W	None	CJK Symbols And Punctuation	CJK angle brackets	LEFT ANGLE BRACKET
+ 〉 	3009	3	2		Close_Punctuation 	W	None	CJK Symbols And Punctuation	CJK angle brackets	RIGHT ANGLE BRACKET
+ 「 	300C	3	1		Open_Punctuation	W	None	CJK Symbols And Punctuation	CJK corner brackets	LEFT CORNER BRACKET
+ 」 	300D	4	2		Close_Punctuation 	W	None	CJK Symbols And Punctuation	CJK corner brackets	RIGHT CORNER BRACKET
+ 〔 	3014	1	1		Open_Punctuation	W	None	CJK Symbols And Punctuation	CJK brackets	LEFT TORTOISE SHELL BRACKET
+ 〕 	3015	1	2		Close_Punctuation 	W	None	CJK Symbols And Punctuation	CJK brackets	RIGHT TORTOISE SHELL BRACKET
+ 〝 	301D	1	1		Open_Punctuation	W	None	CJK Symbols And Punctuation	CJK punctuation	REVERSED DOUBLE PRIME QUOTATION MARK
+ 〟 	301F	1	2		Close_Punctuation 	W	None	CJK Symbols And Punctuation	CJK punctuation	LOW DOUBLE PRIME QUOTATION MARK
+ ・ 	30FB	5	5		Other_Punctuation	W	None	Katakana	Conjunction and length marks	KATAKANA MIDDLE DOT
+ ー 	30FC	1	10		Modifier_Letter	W	None	Katakana	Conjunction and length marks	KATAKANA-HIRAGANA PROLONGED SOUND MARK
+ ﹅ 	FE45	2			Other_Punctuation	W	None	CJK Compatibility Forms	Sidelining emphasis marks	SESAME DOT
+ ！ 	FF01	2	4		Other_Punctuation	F	Wide	Halfwidth And Fullwidth Forms	Fullwidth ASCII variants	FULLWIDTH EXCLAMATION MARK
+ ＃ 	FF03	1			Other_Punctuation	F	Wide	Halfwidth And Fullwidth Forms	Fullwidth ASCII variants	FULLWIDTH NUMBER SIGN
+ （ 	FF08	2	1		Open_Punctuation	F	Wide	Halfwidth And Fullwidth Forms	Fullwidth ASCII variants	FULLWIDTH LEFT PARENTHESIS
+ ） 	FF09	2	2		Close_Punctuation 	F	Wide	Halfwidth And Fullwidth Forms	Fullwidth ASCII variants	FULLWIDTH RIGHT PARENTHESIS
+ ＊ 	FF0A	2			Other_Punctuation	F	Wide	Halfwidth And Fullwidth Forms	Fullwidth ASCII variants	FULLWIDTH ASTERISK
+ ， 	FF0C	1	7		Other_Punctuation	F	Wide	Halfwidth And Fullwidth Forms	Fullwidth ASCII variants	FULLWIDTH COMMA
+ ． 	FF0E	1	6		Other_Punctuation	F	Wide	Halfwidth And Fullwidth Forms	Fullwidth ASCII variants	FULLWIDTH FULL STOP
+？	FF1F	2	4		Other_Punctuation	F	Wide	Halfwidth And Fullwidth Forms	Fullwidth ASCII variants	FULLWIDTH QUESTION MARK
+ ［ 	FF3B	1	1		Open_Punctuation	F	Wide	Halfwidth And Fullwidth Forms	Fullwidth ASCII variants	FULLWIDTH LEFT SQUARE BRACKET
+ ］ 	FF3D	1	2		Close_Punctuation 	F	Wide	Halfwidth And Fullwidth Forms	Fullwidth ASCII variants	FULLWIDTH RIGHT SQUARE BRACKET
