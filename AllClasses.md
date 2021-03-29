@@ -137,7 +137,9 @@
   * 歴史的を抜いてで、小書きを含めてしまっていいなら以下で対応つく
     * cl-15 [Script = Hiragana, Identifier Type != Obsolete](https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5B%3AScript%3DHiragana%3A%5D%26%5B%3AIdentifier_Type%21%3DObsolete%3A%5D) 93文字
     * cl-16 [Script = Katakana, Decomposition Type != Circle/Square, EAW = F/A/W, Identifier Type != Obsolete](https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5B%3AScript%3DKatakana%3A%5D%26%5B%3AIdentifier_Type%21%3DObsolete%3A%5D%26%5B%5B%3AEast_Asian_Width%3DF%3A%5D%5B%3AEast_Asian_Width%3DA%3A%5D%5B%3AEast_Asian_Width%3DW%3A%5D%5D%26%5B%5B%3ADecomposition_Type%21%3DCircle%3A%5D%26%5B%3ADecomposition_Type%21%3DSquare%3A%5D%5D) 113文字
-
+* cl-11 小書きのかな
+  * JLReq利用箇所は6カ所、2.1.2の小書きの定義、3.1.1.cの縦横で異なる字面、3.1.7行頭禁足(2)、3.3.8ルビ(2)
+  * 条件付き行頭禁足は[Line Break = Consitional Japanese Starter](https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5B%3ALine_Break%3DConditional_Japanese_Starter%3A%5D)で実現
 
 
 ## 議論リストでのピックアップ参照リスト
