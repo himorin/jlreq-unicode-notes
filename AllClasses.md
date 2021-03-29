@@ -92,6 +92,7 @@
   * [General Category = Pd, FAW = F/A/W, Decomposition Type =! Vertical/Small](https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5B%5B%3ADecomposition_Type%21%3DSmall%3A%5D%26%5B%3ADecomposition_Type%21%3DVertical%3A%5D%5D%26%5B%3AGeneral_Category%3DPd%3A%5D%26%5B%5B%3AEast_Asian_Width%3DW%3A%5D%5B%3AEast_Asian_Width%3DA%3A%5D%5B%3AEast_Asian_Width%3DF%3A%5D%5D&g=&i=)との比較
     * [U+2014](https://util.unicode.org/UnicodeJsps/character.jsp?a=2014), [U+2015](https://util.unicode.org/UnicodeJsps/character.jsp?a=2015), [U+3030](https://util.unicode.org/UnicodeJsps/character.jsp?a=3030), [U+FF0D](https://util.unicode.org/UnicodeJsps/character.jsp?a=FF0D)が追加になる
     * [JLReq表とUnicodeの対応](references/cl-03-diff.html) ([TSV](references/cl-03-diff.tsv))、[Unicode Pdの全リスト](references/cl-03-unicode.html) ([TSV](references/cl-03-unicode.tsv))
+* [cl-04からcl-10の文字とUnicodeの対応](references/cl-0410-diff.html) ([TSV](references/cl-0410-diff.tsv))
 
 ## 議論リストでのピックアップ参照リスト
 
