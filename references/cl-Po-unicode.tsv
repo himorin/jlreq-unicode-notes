@@ -69,63 +69,8 @@ CL	Glyph	UCS	General_Category	EAW	DT	Block	Subhead	UCS name
 	 ＼ 	FF3C	Other_Punctuation	F		Halfwidth And Fullwidth Forms	Fullwidth ASCII variants	FULLWIDTH REVERSE SOLIDUS
 	 𖿢 	16FE2	Other_Punctuation	W		Ideographic Symbols And Punctuation	Marks used in ancient Chinese texts	OLD CHINESE HOOK MARK
 								
-			cl-04の追加					
+								cl-04の追加
 4	 ‼️ 	203C	Other_Punctuation	N		General Punctuation	Double punctuation for vertical text	DOUBLE EXCLAMATION MARK
 4	 ⁇ 	2047	Other_Punctuation	N		General Punctuation	Double punctuation for vertical text	DOUBLE QUESTION MARK
 4	 ⁈ 	2048	Other_Punctuation	N		General Punctuation	Double punctuation for vertical text	QUESTION EXCLAMATION MARK
 4	 ⁉️ 	2049	Other_Punctuation	N		General Punctuation	Double punctuation for vertical text	EXCLAMATION QUESTION MARK
-								
-								
-								
-								General Category = Pd のリスト
-	 - 	002D	Dash_Punctuation 	Na		Basic Latin	ASCII punctuation and symbols	HYPHEN-MINUS
-	 ֊ 	058A	Dash_Punctuation 	N		Armenian	Punctuation	ARMENIAN HYPHEN
-	 ‎־‎ 	05BE	Dash_Punctuation 	N		Hebrew	Points and punctuation	HEBREW PUNCTUATION MAQAF
-	 ᐀ 	1400	Dash_Punctuation 	N		Unified Canadian Aboriginal Syllabics	Punctuation	CANADIAN SYLLABICS HYPHEN
-	 ᠆ 	1806	Dash_Punctuation 	N		Mongolian	Punctuation	MONGOLIAN TODO SOFT HYPHEN
-3	 ‐ 	2010	Dash_Punctuation 	A		General Punctuation	Dashes	HYPHEN
-	 ‑ 	2011	Dash_Punctuation 	N		General Punctuation	Dashes	NON-BREAKING HYPHEN
-	 ‒ 	2012	Dash_Punctuation 	N		General Punctuation	Dashes	FIGURE DASH
-3	 – 	2013	Dash_Punctuation 	A		General Punctuation	Dashes	EN DASH
-8	 — 	2014	Dash_Punctuation 	A		General Punctuation	Dashes	EM DASH
-	 ― 	2015	Dash_Punctuation 	A		General Punctuation	Dashes	HORIZONTAL BAR
-	 ⸗ 	2E17	Dash_Punctuation 	N		Supplemental Punctuation	 Ancient Near-Eastern linguistic symbol	DOUBLE OBLIQUE HYPHEN
-	 ⸚ 	2E1A	Dash_Punctuation 	N		Supplemental Punctuation	Dictionary punctuation	HYPHEN WITH DIAERESIS
-	 ⸺ 	2E3A	Dash_Punctuation 	N		Supplemental Punctuation	Dashes	TWO-EM DASH
-	 ⸻ 	2E3B	Dash_Punctuation 	N		Supplemental Punctuation	Dashes	THREE-EM DASH
-	 ⹀ 	2E40	Dash_Punctuation 	N		Supplemental Punctuation	Double hyphen	DOUBLE HYPHEN
-3	 〜 	301C	Dash_Punctuation 	W		CJK Symbols And Punctuation	CJK punctuation	WAVE DASH
-	 〰️ 	3030	Dash_Punctuation 	W		CJK Symbols And Punctuation	CJK punctuation	WAVY DASH
-3	 ゠ 	30A0	Dash_Punctuation 	W		Katakana	Katakana punctuation	KATAKANA-HIRAGANA DOUBLE HYPHEN
-	 ︱ 	FE31	Dash_Punctuation 	W	V	CJK Compatibility Forms	Glyphs for vertical variants	PRESENTATION FORM FOR VERTICAL EM DASH
-	 ︲ 	FE32	Dash_Punctuation 	W	V	CJK Compatibility Forms	Glyphs for vertical variants	PRESENTATION FORM FOR VERTICAL EN DASH
-	 ﹘ 	FE58	Dash_Punctuation 	W		Small Form Variants	Small form variants	SMALL EM DASH
-	 ﹣ 	FE63	Dash_Punctuation 	W		Small Form Variants	Small form variants	SMALL HYPHEN-MINUS
-	 － 	FF0D	Dash_Punctuation 	F		Halfwidth And Fullwidth Forms	Fullwidth ASCII variants	FULLWIDTH HYPHEN-MINUS
-								
-								
-								
-			"EAW = A, F, WのみでフィルターしたGeneral Category = Lm のリスト"					
-	 ˇ 	02C7	Modifier_Letter	A		Spacing Modifier Letters	Miscellaneous phonetic modifiers	CARON
-	 ˉ 	02C9	Modifier_Letter	A		Spacing Modifier Letters	Miscellaneous phonetic modifiers	MODIFIER LETTER MACRON
-	 ˊ 	02CA	Modifier_Letter	A		Spacing Modifier Letters	Miscellaneous phonetic modifiers	MODIFIER LETTER ACUTE ACCENT
-	 ˋ 	02CB	Modifier_Letter	A		Spacing Modifier Letters	Miscellaneous phonetic modifiers	MODIFIER LETTER GRAVE ACCENT
-	 ˍ 	02CD	Modifier_Letter	A		Spacing Modifier Letters	Miscellaneous phonetic modifiers	MODIFIER LETTER LOW MACRON
-	 ː 	02D0	Modifier_Letter	A		Spacing Modifier Letters	Miscellaneous phonetic modifiers	MODIFIER LETTER TRIANGULAR COLON
-	 ⁿ 	207F	Modifier_Letter	A		Superscripts And Subscripts	Superscripts	SUPERSCRIPT LATIN SMALL LETTER N
-9	 々 	3005	Modifier_Letter	W		CJK Symbols And Punctuation	CJK symbols and punctuation	IDEOGRAPHIC ITERATION MARK
-	 〱 	3031	Modifier_Letter	W		CJK Symbols And Punctuation	Kana repeat marks	VERTICAL KANA REPEAT MARK
-	 〲 	3032	Modifier_Letter	W		CJK Symbols And Punctuation	Kana repeat marks	VERTICAL KANA REPEAT WITH VOICED SOUND MARK
-8	 〳 	3033	Modifier_Letter	W		CJK Symbols And Punctuation	Kana repeat marks	VERTICAL KANA REPEAT MARK UPPER HALF
-8	 〴 	3034	Modifier_Letter	W		CJK Symbols And Punctuation	Kana repeat marks	VERTICAL KANA REPEAT WITH VOICED SOUND MARK UPPER HALF
-8	 〵 	3035	Modifier_Letter	W		CJK Symbols And Punctuation	Kana repeat marks	VERTICAL KANA REPEAT MARK LOWER HALF
-9	 〻 	303B	Modifier_Letter	W		CJK Symbols And Punctuation	CJK punctuation	VERTICAL IDEOGRAPHIC ITERATION MARK
-9	 ゝ 	309D	Modifier_Letter	W		Hiragana	Iteration marks	HIRAGANA ITERATION MARK
-9	 ゞ 	309E	Modifier_Letter	W		Hiragana	Iteration marks	HIRAGANA VOICED ITERATION MARK
-10	 ー 	30FC	Modifier_Letter	W		Katakana	Conjunction and length marks	KATAKANA-HIRAGANA PROLONGED SOUND MARK
-9	 ヽ 	30FD	Modifier_Letter	W		Katakana	Iteration marks	KATAKANA ITERATION MARK
-9	 ヾ 	30FE	Modifier_Letter	W		Katakana	Iteration marks	KATAKANA VOICED ITERATION MARK
-	 ꀕ 	A015	Modifier_Letter	W		Yi Syllables	Syllable iteration mark	YI SYLLABLE WU
-	 𖿠 	16FE0	Modifier_Letter	W		Ideographic Symbols And Punctuation	Tangut mark	TANGUT ITERATION MARK
-	 𖿡 	16FE1	Modifier_Letter	W		Ideographic Symbols And Punctuation	Nushu mark	NUSHU ITERATION MARK
-	 𖿣 	16FE3	Modifier_Letter	W		Ideographic Symbols And Punctuation	Marks used in ancient Chinese texts	OLD CHINESE ITERATION MARK
