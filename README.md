@@ -12,6 +12,7 @@
 
 * [文字クラス一覧](AllClasses.md)
   * 一覧に突っ込んである最新の議論の日付 : YYYY/MM/DD
+* [East Asian Widthでの一覧](EAW.md)
 
 ## 資料
 
